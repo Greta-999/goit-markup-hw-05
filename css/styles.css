@@ -695,9 +695,13 @@ li {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: 1px solid rgba(46, 47, 66, 0.4);
-}
-.input:checked {
   border-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+.submit {
+  min-width: 169px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
