@@ -657,6 +657,7 @@ li {
 /*-----check----*/
 .text-check {
   font-size: 12px;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
@@ -671,11 +672,30 @@ li {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
-.text-check span {
+.text-check {
   margin-right: 8px;
   font-weight: 400;
   font-size: 12px;
   color: #8e8f99;
   width: 360px;
   height: 16px;
+}
+.modal-fild-check {
+  margin-bottom: 24px;
+}
+.check-privacy {
+  width: 16px;
+  height: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }

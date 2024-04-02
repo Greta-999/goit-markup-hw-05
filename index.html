@@ -569,21 +569,26 @@
               class="modal-text"
             ></textarea>
           </div>
-          <div class="modal-fild">
+          <div class="modal-fild-check">
             <input
-              class="modal-check"
+              class="modal-check visually-hidden"
               type="checkbox"
-              name="privacy"
-              required
-              id="privacy"
+              name="user-privacy"
+              value="true"
+              id="user-privacy"
             />
-            <label for="privacy" class="text-check"
-              ><span></span>I accept the terms and conditions of the
+            <label for="user-privacy" class="text-check"
+              ><span class="check-privacy">
+                <svg class="vector" width="10" height="8">
+                  <use href="./images/icons.svg#icon-Vector"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
               <a class="check-link">Privacy Policy</a></label
             >
           </div>
+          <button class="submit modal-bt">Send</button>
         </form>
-        <button class="submit modal-bt">Send</button>
       </div>
     </div>
   </body>
