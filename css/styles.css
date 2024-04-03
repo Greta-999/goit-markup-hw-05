@@ -602,10 +602,7 @@ li {
   display: block;
   margin-bottom: 4px;
 }
-.text-label span {
-  display: block;
-  margin-bottom: 4px;
-}
+
 .modal-icon {
   position: absolute;
   fill: #2e2f42;
@@ -663,7 +660,6 @@ li {
 }
 
 .text-check {
-  margin-right: 8px;
   font-weight: 400;
   font-size: 12px;
   color: #8e8f99;
@@ -674,6 +670,7 @@ li {
   margin-bottom: 24px;
 }
 .check-privacy {
+  margin-right: 8px;
   width: 16px;
   height: 16px;
   display: inline-flex;
