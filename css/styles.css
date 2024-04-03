@@ -657,8 +657,9 @@ li {
 .modal-check:checked + .text-check .check-privacy {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
+  fill: #F4F4FD;;
   border-color: #404bbf;
+  
 }
 
 .text-check {
@@ -699,4 +700,7 @@ li {
   background: #4d5ae5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-bt {
+  align-self: center;
 }
