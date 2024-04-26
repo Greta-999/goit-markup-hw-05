@@ -249,7 +249,7 @@ li {
   margin-bottom: 72px;
 }
 .item {
-  width: calc((100% - 72px) / 4);
+ width: calc((100% - 72px) / 4);
 }
 .title-team {
   padding: 32px 0;
@@ -428,6 +428,7 @@ li {
   margin-right: 120px;
   width: 264px;
   height: 112px;
+  padding: 72px;
 }
 
 .container-footer {
